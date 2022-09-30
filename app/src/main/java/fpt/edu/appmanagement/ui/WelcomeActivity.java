@@ -12,6 +12,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // màng hình chào
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_main);
         Handler handler = new Handler();
