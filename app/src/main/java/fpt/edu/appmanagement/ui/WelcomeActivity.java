@@ -21,6 +21,5 @@ public class WelcomeActivity extends AppCompatActivity {
                 startActivity(new Intent(WelcomeActivity.this, LoginActivity.class));
             }
         }, 1000);
-
     }
 }
