@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/tong_quan"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bgr_home_block"
+            android:orientation="vertical"
+            android:padding="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center_vertical"
+                android:text="@string/thiet_ke_giao_dien_android"
+                android:textColor="@color/main"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_home_android" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.7"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="Họ và tên: Hồ Minh Phú"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_add_circle_line"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.7"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="MSSV: PD06115"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_add_circle_line"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.7"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="Lớp: CP17303"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_add_circle_line"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.7"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="Mã môn: MOB202"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_add_circle_line"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bgr_home_block"
+            android:orientation="vertical"
+            android:padding="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center_vertical"
+                android:text="@string/assignment"
+                android:textColor="@color/main"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_home_android" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.7"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="Thiết kế giao diện Android"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_add_circle_line"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.7"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="Sử dụng building block và các mẫu thường dùng"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_add_circle_line"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.7"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="Xây dựng Fragment, các thiết klees material design"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_add_circle_line"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">appManagement</string>
+    <string name="poly_fpt">POLY FPT</string>
+    <string name="title_login">QUẢN LÝ - THỐNG KÊ - THU CHI</string>
+    <string name="back">Back</string>
+    <string name="tro_ve">Trở về</string>
+    <string name="ten_dang_nhap">Tên đăng nhập/ Email</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="dang_nhap1">Đăng Nhập</string>
+    <string name="quen_mk">Quên mật khẩu?</string>
+    <string name="dang_nhap2">Hoặc đăng nhập</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hồ Minh Phú</string>
+    <string name="nav_header_subtitle">PD06115-MOB202</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_trang_chu">Trang chủ</string>
+    <string name="khoan_thu">Khoản Thu</string>
+    <string name="khoan_chi">Khoản chi</string>
+    <string name="thong_ke">Thống kê</string>
+    <string name="khac">Khác</string>
+    <string name="gioi_thieu">Giới thiệu</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thiet_ke_giao_dien_android">Thiết kế giao diện Android</string>
+    <string name="assignment">Assignment</string>
+    <string name="gioithieu_title">App POLY FPT</string>
+    <string name="lien_he">Liên hệ và Hỏi Đáp</string>
+    <string name="phone_lien_he">0775098507</string>
+    <string name="mail_lien_he">phuhmpd06115@fpt.edu.vn</string>
+    <string name="tong_quan">Tổng quan</string>
+    <string name="g_i_ngay">Gọi ngay</string>
+    <string name="gui_ngay">Gửi ngay</string>
+
+
+</resources>

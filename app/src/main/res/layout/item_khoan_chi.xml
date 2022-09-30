@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:background="@drawable/bgr_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTenKhoanChi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/lato_regular"
+                android:text="Tiền thưởng"
+                android:textColor="@color/text"
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:drawablePadding="8dp"
+                android:id="@+id/txtTienKhoanChi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:text="50000"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                app:drawableEndCompat="@drawable/ic_money_dollar_circle_line"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSuaKhoanChi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_edit_2_fill"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivXoaKhoanChi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_delete_bin_7_fill"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+</LinearLayout>

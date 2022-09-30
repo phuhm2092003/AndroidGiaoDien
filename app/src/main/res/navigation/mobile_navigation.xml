@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="fpt.edu.appmanagement.ui.home.HomeFragment"
+        android:label="@string/menu_trang_chu"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/nav_dang_xuat"
+        android:name="fpt.edu.appmanagement.ui.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/nav_gioi_thieu"
+        android:name="fpt.edu.appmanagement.ui.GioiThieu.GioiThieuFragment"
+        android:label="@string/gioi_thieu"
+        tools:layout="@layout/fragment_gioi_thieu" />
+    <fragment
+        android:id="@+id/nav_chi"
+        android:name="fpt.edu.appmanagement.ui.Chi.ChiFragment"
+        android:label="@string/khoan_chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="fpt.edu.appmanagement.ui.Thu.ThuFragment"
+        android:label="@string/khoan_thu"
+        tools:layout="@layout/fragment_thu" />
+    <fragment
+        android:id="@+id/nav_thong_ke"
+        android:name="fpt.edu.appmanagement.ui.ThongKe.ThongKeFragment"
+        android:label="@string/thong_ke"
+        tools:layout="@layout/fragment_thong_ke" />
+
+</navigation>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="SỬA KHOẢN CHI"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="16sp"
+        android:id="@+id/loaiThuDangChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại thu đang chọn: " />
+
+    <Spinner
+        android:background="@drawable/bgr_spinner_dialog"
+        android:id="@+id/spnSuaLoaiChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:id="@+id/edtSuaTienKhoanChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bgr_edt_dialog"
+        android:ems="10"
+        android:hint="Nhập số tiền"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textSize="16sp"
+        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bgr_btn_dialog2"
+            android:fontFamily="@font/lato_bold"
+            android:text="huỷ"
+            android:textColor="#7A7A7A"
+            android:textSize="14sp"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Button
+            android:id="@+id/btnSuaKhoanChi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/bgr_btn_dialog1"
+            android:fontFamily="@font/lato_bold"
+            android:padding="16dp"
+            android:text="Sửa"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="ButtonStyle,HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
