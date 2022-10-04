@@ -18,7 +18,7 @@ public class WelcomeActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                // MÀNG HÌNH SẼ CHẠY SAU 2 GIÂY
+                // MÀNG HÌNH SẼ CHẠY SAU 1 GIÂY
                 startActivity(new Intent(WelcomeActivity.this, LoginActivity.class));
             }
         }, 1000);
